@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //answer 1
+            Book b1 = new Book();
+            // b1.passWord ;//غير قابله للاستخدام لان الprivate مرئيه فقط فى ال scope بتاعها الى هو الclass;
+      
+
+
         }
     }
 }
