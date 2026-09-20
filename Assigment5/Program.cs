@@ -22,6 +22,11 @@
             Console.WriteLine((int)Genra.fiction);
             Console.WriteLine((int)Genra.nonfiction);
             Console.WriteLine((int)Genra.science);
+            //answer 6
+            int genreNumber =  1;
+            Genra g =(Genra) genreNumber;
+            Console.WriteLine(g);
+            
 
 
         }
