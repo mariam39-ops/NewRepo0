@@ -18,6 +18,12 @@
             //answer 4 
             b1.gan=Genra.science;
             Console.WriteLine(b1.gan);
+            //answer 5
+            Console.WriteLine((int)Genra.fiction);
+            Console.WriteLine((int)Genra.nonfiction);
+            Console.WriteLine((int)Genra.science);
+
+
         }
     }
 }
