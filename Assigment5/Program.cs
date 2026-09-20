@@ -11,7 +11,9 @@
             //answer 2
             b1.copiesInStock = 500;//لان الinternal مرئيه داخل الكلاس وداخل البروجيكت طالما فى نفس الassemply
 
-
+            //answer 3
+            b1.Title = "good book";
+            Console.WriteLine(b1.Title);
         }
     }
 }

@@ -8,6 +8,8 @@ namespace Assigment5
       private string passWord = "secret";
         //answer 2
         internal int copiesInStock = 5;
+        //answer 3
+        public string Title;
 
     }
 }
