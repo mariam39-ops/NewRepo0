@@ -32,9 +32,15 @@
             //answer 8
             string genraText = "science";
             Console.WriteLine(Enum.Parse<Genra>(genraText));
+            //answer 9
+            string genratext= "Mystery";
+            bool flag = Enum.TryParse<Genra>(genratext,out genra);
+            if (!flag)
+            {
+                Console.WriteLine("Unknown genre");
+            }
 
 
-            
 
 
         }
