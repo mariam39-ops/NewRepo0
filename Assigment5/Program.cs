@@ -7,7 +7,9 @@
             //answer 1
             Book b1 = new Book();
             // b1.passWord ;//غير قابله للاستخدام لان الprivate مرئيه فقط فى ال scope بتاعها الى هو الclass;
-      
+
+            //answer 2
+            b1.copiesInStock = 500;//لان الinternal مرئيه داخل الكلاس وداخل البروجيكت طالما فى نفس الassemply
 
 
         }

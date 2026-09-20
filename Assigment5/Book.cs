@@ -6,7 +6,8 @@ namespace Assigment5
     {
         //answer 1
       private string passWord = "secret";
-       
+        //answer 2
+        internal int copiesInStock = 5;
 
     }
 }
