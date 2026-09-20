@@ -10,6 +10,8 @@ namespace Assigment5
         internal int copiesInStock = 5;
         //answer 3
         public string Title;
+        //answer4
+        public Genra gan { get; set; }
 
     }
 }

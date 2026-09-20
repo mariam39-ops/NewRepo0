@@ -1,4 +1,5 @@
 ﻿namespace Assigment5
+    
 {
     internal class Program
     {
@@ -14,6 +15,9 @@
             //answer 3
             b1.Title = "good book";
             Console.WriteLine(b1.Title);
+            //answer 4 
+            b1.gan=Genra.science;
+            Console.WriteLine(b1.gan);
         }
     }
 }
