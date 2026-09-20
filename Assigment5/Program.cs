@@ -29,6 +29,10 @@
             //answer 7
             Genra genra = Genra.fiction;
             Console.WriteLine(genra.ToString());
+            //answer 8
+            string genraText = "science";
+            Console.WriteLine(Enum.Parse<Genra>(genraText));
+
 
             
 
