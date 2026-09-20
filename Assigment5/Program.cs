@@ -26,6 +26,10 @@
             int genreNumber =  1;
             Genra g =(Genra) genreNumber;
             Console.WriteLine(g);
+            //answer 7
+            Genra genra = Genra.fiction;
+            Console.WriteLine(genra.ToString());
+
             
 
 
